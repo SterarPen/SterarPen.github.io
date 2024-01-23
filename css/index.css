@@ -5,7 +5,8 @@ html {
 body {
     width: 95%;
     height: 95%;
-    background-image: url("/img/background.png");
+    background-image: url("https://s2.loli.net/2024/01/23/cJoNQT9HWuUZ3B7.jpg");
+    /* url("/img/background.png"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,7 +16,8 @@ body {
     width: 60%;
     height: 60%;
 
-    background-image: url("/img/content1.png");
+    background-image: url("https://s2.loli.net/2024/01/23/ToYdcFQEKalpDuN.png");
+    /* url("/img/content1.png"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
