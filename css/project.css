@@ -8,6 +8,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
+    background-color: bisque;
     background-image: url("https://s2.loli.net/2024/01/23/OAFpg7vX529ceKm.png");
     /* url("/img/top.png"); */
     background-repeat: no-repeat;
