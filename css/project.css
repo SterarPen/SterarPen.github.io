@@ -77,36 +77,78 @@ body {
     color: white;
     margin-top: 10px;
 }
+.left ul li:hover {
+    color: rgb(250, 165, 240);
+}
 
 .right {
     position: absolute;
     width: 85%;
     height: calc(88% - 3px);
     top: calc(12% + 3px);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     left: 15%;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(119, 119, 119, 0.45);
     /* background-color: rebeccapurple; */
 }
 
 .right #project_name {
     margin: 10px;
-    color: white;
+    color: rgb(250, 165, 240);
     font-size: larger;
     font-weight: 600;
 }
 
-.right #project_date {
+.right #second {
     margin: 10px;
     color: aqua;
     font-size: large;
 }
 
-.right #project_introduction {
+.right #second #project_url a {
+    color: aqua;
+    float: right;
+    font-family:'Times New Roman', Times, serif
+}
+
+.right #project_description {
     margin: 10px;
     color: white;
 }
 
-.right #project_website {
+.right #project_demo {
     margin: 10px;
-    color: antiquewhite;
+    border: 2px white solid;
+    padding: 15px;
+    background-color: rgba(233, 233, 233, 0.3);
+
+    color: white;
+    width: 35%;
+    height: 200px;
+    position:absolute;
+    left: 0;
+    /* bottom: 0; */
+    display: inline-block;
+}
+.right #project_demo .rel {
+    color: wheat;
+    font-size: large;
+    font-weight: bold;
+}
+.right #project_demo a  {
+    color: white;
+}
+
+.right #project_img {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    /* bottom: 0; */
+
+    margin: 10px;
+}
+.right #project_img img {
+    width: 500px;
+    height: auto;
 }

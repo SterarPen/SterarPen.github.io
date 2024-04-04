@@ -6,6 +6,13 @@
     <link rel="icon" href="/img/favicon.ico"/>
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="/css/project.css"/>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/project.js"></script>
+    <script>
+        window.onload = function() {
+            $('#project_list li:first').click();
+        };
+    </script>
 </head>
 <body>
     <div class="top">
@@ -18,31 +25,48 @@
     </div>
 
     <div class="left">
-        <ul>
-            <li>软件项目成本控制管理系统</li>
+        <ul id="project_list">
         </ul>
     </div>
     <div class="right">
-        <div id="project_name">项目名称：软件项目成本控制管理系统</div>
-        <div id="project_date">日期：2023.09-2024.01.03</div>
-        <div id="project_introduction">介绍: 基于SSM框架实现的，以阶段和任务统计的软件工程项目成本控制管理系统</div>
-        <div id="project_website">
-            <ul>
-                <li>
-                    访问地址：
-                    <a href="https://sterarpen.github.io/software-project-cost-management-system/" target="_blank">
-                        https://sterarpen.github.io/software-project-cost-management-system/
-                    </a>
-                </li>
-                <li>
-                    Github: 
-                    <a href="https://github.com/SterarPen/software-project-cost-management-system" target="_blank">
-                        https://github.com/SterarPen/software-project-cost-management-system
-                    </a>
-                </li>
-            </ul>
+        <div id="project_name">
+            <span class="rel">项目名称：</span>
+            <span class="value"></span></div>
+        <div id="second">
+            <span id="project_date">
+                <span class="value"></span>
+           </span>
+            <span id="project_url">
+                <a href=""></a>
+            </span>
+             
         </div>
         
+        <div id="project_tags"></div>
+        <div id="project_description">
+            <span class="rel">项目简介：</span>
+            <span class="value">
+                <p></p>
+            </span>
+        </div>
+        <div id="project_demo">
+            <span class="rel">项目演示</span>
+            <span class="value">
+                <p>演示地址：<a href=""></a></p>
+                <p>用户名：</p>
+                <p>密码：<PASSWORD></p>
+            </span>
+        </div>
+        <div id="project_img">
+            <img src=""/>
+        </div>
+        
+        <div id="project_website"></div>
+        <div id="project_url"></div>
+        
+        <div id="project_author"></div>
+        
     </div>
+    
 </body>
 </html>

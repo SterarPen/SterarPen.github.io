@@ -1,0 +1,16 @@
+[
+    {
+        "project_id": "1",
+        "project_name": "软件项目成本控制管理系统",
+        "project_description": "基于SSM框架实现的，以阶段和任务统计的软件工程项目成本控制管理系统",
+        "project_url": "https://github.com/SterarPen/software-project-cost-management-system",
+        "project_image": "https://github.com/SterarPen/software-project-cost-management-system/raw/main/Introduction/images/img.png",
+        "project_tags": "",
+        "project_start_date": "2023.09.05",
+        "project_end_date": "2024.01.03",
+        "project_author": "Starer Pen",
+        "project_github": "https://github.com/SterarPen/software-project-cost-management-system",
+        "project_demo": "https://sterarpen.github.io/software-project-cost-management-system",
+        "project_content": "项目职责"
+    }
+]
