@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    
     $("#project_list").on('click', 'li.project_item', function() {
+        $(".project_item").css("color", "white");
         $(this).css("color", "red");
         var project_id = $(this).attr("name");
         console.log(project_id);    

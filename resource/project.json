@@ -6,11 +6,25 @@
         "project_url": "https://github.com/SterarPen/software-project-cost-management-system",
         "project_image": "https://github.com/SterarPen/software-project-cost-management-system/raw/main/Introduction/images/img.png",
         "project_tags": "",
-        "project_start_date": "2023.09.05",
-        "project_end_date": "2024.01.03",
+        "project_start_date": "2023.06",
+        "project_end_date": "2023.09",
         "project_author": "Starer Pen",
         "project_github": "https://github.com/SterarPen/software-project-cost-management-system",
         "project_demo": "https://sterarpen.github.io/software-project-cost-management-system",
+        "project_content": "项目职责"
+    },
+    {
+        "project_id": "2",
+        "project_name": "优网导航库",
+        "project_description": "一款致力于提升用户互联网浏览体验的高效网址导航平台。该平台以简洁直观的设计理念为核心，集合全网优质资源，精心筛选各类高质量网站链接，旨在打造一个一站式网络入口，满足用户快速查找、便捷访问各类网站的需求。",
+        "project_url": "https://github.com/SterarPen/website-navigation-server",
+        "project_image": "https://github.com/SterarPen/website-navigation-server/raw/master/doc/img/%E7%99%BB%E5%BD%95%E5%92%8C%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E6%B5%81%E7%A8%8B.jpg",
+        "project_tags": "",
+        "project_start_date": "2024.02",
+        "project_end_date": "2024.04",
+        "project_author": "Starer Pen",
+        "project_github": "https://github.com/SterarPen/software-project-cost-management-system",
+        "project_demo": "no",
         "project_content": "项目职责"
     }
 ]
