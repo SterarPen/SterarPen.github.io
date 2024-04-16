@@ -66,7 +66,7 @@ let success;
 function checkSuccess() {
     console.log(redQueue, greenQueue);
     if(redQueue.length === 3) {
-        let redQueue1 = redQueue.slice(0);
+        let redQueue1 = redQueue.slice(0).sort();
         console.log(redQueue1,redQueue1);
         if(Math.abs(redQueue1[0] - redQueue1[1]) == 1 && Math.abs(redQueue1[1] - redQueue1[2]) == 1) {
             success = '🔴';
@@ -90,7 +90,7 @@ function checkSuccess() {
     }
 
     if(greenQueue.length === 3) {
-        let greenQueue1 = greenQueue.slice(0);
+        let greenQueue1 = greenQueue.slice(0).sort();
         console.log("greenQueue1", greenQueue1);
         if(Math.abs(greenQueue1[0] - greenQueue1[1]) == 1 && Math.abs(greenQueue1[1] - greenQueue1[2]) == 1) {
             success = '🟢';
