@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/tic-tav-toe.css">
+    <script src="/js/tic-tav-toe.js"></script>
+</head>
+<body>
+    <a href="/game/index.html">游戏目录</a>
+    <header>
+        <h1>圈叉棋</h1>
+        <h2>Tic Tac Toe</h2> 
+    </header>
+    
+    <table>
+        <tr>
+            <td class="cell" id="1" able="true" onclick="cellClicked(1)"></td>
+            <td class="cell" id="2" able="true" onclick="cellClicked(2)"></td>
+            <td class="cell" id="3" able="true" onclick="cellClicked(3)"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="4" able="true" onclick="cellClicked(4)"></td>
+            <td class="cell" id="5" able="true" onclick="cellClicked(5)"></td>
+            <td class="cell" id="6" able="true" onclick="cellClicked(6)"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="7" able="true" onclick="cellClicked(7)"></td>
+            <td class="cell" id="8" able="true" onclick="cellClicked(8)"></td>
+            <td class="cell" id="9" able="true" onclick="cellClicked(9)"></td>
+        </tr>
+    </table>
+    <div id="result">
+        当前玩家：<a id="player">🔴</a>
+        胜方：<a id="winner"></a>
+        <button onclick="reset()">再来一局</button>
+    </div>
+</body>
+</html>
