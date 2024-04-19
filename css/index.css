@@ -61,3 +61,14 @@ audio {
     left: 0;
     opacity: 0.5;
 }
+
+#message {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.8;
+
+    color: white;
+    font-size: large;
+}
