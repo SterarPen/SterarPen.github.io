@@ -54,3 +54,10 @@ body {
     font-size: 2vw;
     margin: 10px;
 }
+
+audio {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}

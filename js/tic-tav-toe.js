@@ -6,8 +6,13 @@ const greenQueue = [];
 
 let currentPlayer = "🔴";
 
-document.ready = ()=> {
-   document.getElementById("player").innerText="🔴"; 
+
+window.onload = () => {
+    // fetch("/data/count.json")
+    //     .then(response => response.json())
+    //     .then(data => {
+    //         document.getElementById("count").innerText = data["tic-tac-toe"];
+    //     });
 }
 
 
