@@ -71,4 +71,5 @@ audio {
 
     color: white;
     font-size: large;
+    white-space: nowrap;
 }

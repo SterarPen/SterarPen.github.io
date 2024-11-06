@@ -3,6 +3,7 @@ window.onload = function() {
         const bgm = document.getElementById("bgm");
         bgm.setAttribute("src", data[0]);
         bgm.setAttribute("autoplay", true);
+        bgm.volume = 0.2;
 
         document.onclick = function() {
             document.querySelector("audio").play();
